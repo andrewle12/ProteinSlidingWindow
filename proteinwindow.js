@@ -41,3 +41,7 @@ var printProtein = peptide => {
   $("#proteins").append(peptide);
   $("#proteins").append("<br>");
 };
+
+$(".btn-danger").on("click", function() {
+  location.reload();
+});

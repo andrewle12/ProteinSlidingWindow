@@ -15,11 +15,14 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css.css" />
 
     <title>Protein Sliding Window</title>
   </head>
   <body>
     <h1>Protein Sliding Window</h1>
+    <br />
+    <br />
 
     <div class="form-group">
       <label for="proteinSequence"
@@ -33,15 +36,18 @@
       <textarea class="form-control" id="amino" rows="1"></textarea>
     </div>
 
-    <br />
-    <br />
     <button type="button" class="btn btn-primary" id="submit">Submit</button>
+    <button type="button" class="btn btn-danger">Reset</button>
+
     <br />
     <br />
 
     <strong>Output peptides:</strong>
     <br />
     <div id="proteins"></div>
+
+    <br />
+    <br />
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
